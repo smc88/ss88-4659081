@@ -1,0 +1,270 @@
+/*
+Theme Name: SPOTIFY THEMES
+Theme URI: N/A
+Author: Shan Chikonka
+*/
+/* $CSS Reset & Clearfix */
+
+
+/*==================
+	IMPORTS
+ ==================*/
+/*===[LIBS]===*/
+
+
+
+//OVERITES
+
+/*==================
+	GLOBAL STYLE
+ ==================*/
+body{
+	font:400 12px/1.4 "Open Sans", sans-serif;
+}
+
+#product-title h2{
+	font-size: 25px;
+	line-height: 26px;
+	color: #333;
+	margin: 0;
+	font-family: "Open sans", sans-serif;
+	font-weight: 300;
+
+}
+/*===[HEADER]===*/
+#header{
+	width: 100%;
+	border: none;
+
+	#cart-summary{
+		width: 30%;
+		border-bottom: 20px;
+		float: right;
+		padding-top: 10px;
+
+		#cart-count {
+			padding: 0 5px 0 155px;
+			float: left;
+			border-left: 1px solid #eeeeee;
+		}
+		form#search-form {
+			float: right;
+			width: 180px;
+			height: 24px;
+			margin-top: 14px;
+			display: block;
+			background: #F8F8F8;
+			color: #ccc;
+			border:none;
+			margin-right: 20px;
+		}
+
+
+	}
+	//NAV
+	nav{
+		float: left;
+		border-bottom: 1px solid #5F5F5F;
+		border-top: 1px solid #ccc;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		width: 100%;
+
+		#nav{
+			margin:0;
+			border:none;
+		}
+		.nav-item .nav-item-link{
+			color: #404040;
+			font-size: 15px;
+			text-transform: uppercase;
+
+
+				&:hover{
+					color: #000;
+					text-decoration: none;
+				}
+		}
+		.nav-item.active{
+			color: #000;
+				&:hover{
+					color: #000;
+					text-decoration: none;
+				}
+		}
+	}
+
+	#title_wrap{
+		float: left;
+		margin:30px 0 0 0;
+		width: 100%;
+		text-align: center;
+			#title{
+				margin:0;
+				float: none;
+				font-size: 60px;
+				line-height: 55px;
+				font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+				font-weight: 100;
+				&:hover{
+					text-decoration: none;
+				}
+
+			}
+	}
+
+}
+
+
+
+/*===[GLOBAL CONTENT]===*/
+	#collection-title{
+		padding-bottom: 20px;
+		width: 100%;
+		max-width: none;
+
+			.page-title{
+				font-family:"Open Sans", sans-serif;
+				font-weight: 500;
+				font-size: 22px;
+			}
+	}
+
+ .coll-prod-price{
+	font-size: 14px;
+	color: #a9aaaa;
+	margin: 3px 0 0 0;
+ }
+
+ .coll-prod-meta{
+	font-size: 12px;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+ }
+
+ #breadcrumbs {
+	border-top:none;
+	padding: 10px 8px;
+	font-size: 12px;
+	text-align: left;
+	margin:0 0 30px 0;
+	background: rgba(250, 250, 250, 0.46);
+	line-height: 19px;
+}
+
+/*===[PAGES]===*/
+	//about
+	#about-description{
+		font-size: 12px;
+	}
+	h1.page-title{
+		font-family:"Open Sans", sans-serif;
+		font-weight: 500;
+		font-size: 22px;
+		padding-bottom: 20px;
+		width: 100%;
+		border-bottom: 1px solid #E4E4E4;
+		max-width: none;
+	}
+	//collections
+	#coll-product-list{
+			li{
+				&:hover{
+					background: #f8f8f8;
+					opacity: .8;
+				}
+			}
+
+	}
+	//product page
+
+	#product-add-medallion{
+		background: none;
+	}
+
+	#product-details{
+		.product-price{
+			font-size: 28px;
+			font-family: "Open Sans", sans-serif;
+		}
+
+		#product-title{
+			h1{
+				font-size: 32px;
+				font-weight: 700;
+				font-family: "Open Sans", sans-serif;
+			}
+		}
+	}
+
+	#product-photo-container{
+		border: 1px solid #eee;
+	}
+	//contact
+	#contact-details{
+		font-size: 12px;
+	}
+
+/*===[FOOTER]===*/
+	#footer{
+		width: 100%;
+		#mailing-list-module{
+			form{
+				.wrap{
+					display: -moz-inline-stack;
+					display: inline-block;
+					vertical-align: middle;
+					zoom: 1;
+					width: 75%;
+					padding-right: 65px;
+					margin: 0 auto;
+					border: 1px solid #DDDDDD;
+					position: relative;
+					input{
+						background: transparent;
+						font-size: 12px;
+						font-family: 'Open Sans', sans-serif;
+						color: #bbbbbb;
+						padding: 8px 0 8px 8px;
+							-webkit-border-radius: 0px;
+						-moz-border-radius: 0px;
+						-ms-border-radius: 0px;
+						-o-border-radius: 0px;
+						border-radius: 0px;
+					}
+					.submit,.btn{
+						position: absolute;
+						top: -1px;
+						right: -1px;
+						bottom: -1px;
+						width: 65px;
+						background: #bbbbbb;
+						font-size: 10px;
+						letter-spacing: 0.1em;
+						color: #ffffff;
+						padding: 8px 0 8px 8px;
+						text-transform: uppercase;
+						text-align: center;
+						-webkit-border-radius: 0px;
+						-moz-border-radius: 0px;
+						-ms-border-radius: 0px;
+						-o-border-radius: 0px;
+						border-radius: 0px;
+					}
+				}
+			}
+		}
+
+	}
+	.ft-module h3{
+		font-size: 14px;
+	}
+
+
+/*===[MEDIA QUERIES]===*/
+@media all and (min-width:1200px) {
+	.container{
+		max-width: 940px;
+	}
+}

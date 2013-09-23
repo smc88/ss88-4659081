@@ -1,0 +1,25 @@
+/*
+Theme Name: SPOTIFY THEMES
+Theme URI: N/A
+Author: Shan Chikonka
+*/
+/* $CSS Reset & Clearfix */
+/*==================
+	IMPORTS
+ ==================*/
+/*===[LIBS]===*/
+/*==================
+	GLOBAL STYLE
+ ==================*/
+/*===[HEADER]===*/
+#header {
+  width: 100%; }
+  #header #cart-summary {
+    width: none;
+    border-bottom: none; }
+
+/*===[GLOBAL CONTENT]===*/
+/*===[PAGES]===*/
+/*===[FOOTER]===*/
+#footer {
+  width: 100%; }
